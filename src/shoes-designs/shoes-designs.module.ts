@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { ShoesDesignsService } from './shoes-designs.service';
-import { ShoesDesignsController } from './shoes-designs.controller';
+import { ShoesDesignsService } from './domain/services/shoes-designs.service';
+import { ShoesDesignsController } from './interface/shoes-designs.controller';
 
 @Module({
   controllers: [ShoesDesignsController],
